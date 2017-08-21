@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .jumbotron{
+                background-color: #2E2D88;
+                color: white;
+            }
+            /* Adds border for tabs */
+            .tab-content{
+                border-left: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+                padding: 10px;
+            }
+            .nav-tabs{
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="well well-sm">
+                <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+            <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <img src="logo.png" id="logo" class="img-responsive img-thumbnail pull-left" alt="">
+        </div>
+        <div class="container">
+            <span class="text-muted">Quis nostrud</span>
+            <span class="text-primary">exercitation ullmaco</span>
+            <span class="text-success">laboris nisi</span>
+            <span class="text-warning">ut aliquip</span>
+            <span class="text-info">ex ea commodo</span>
+            <span class="text-danger">consequat.</span>
+        </div>
+        <div class="container">
+            <span class="bg-primary">exercitation ullmaco</span>
+            <span class="bg-success">laboris nisi</span>
+            <span class="bg-warning">ut aliquip</span>
+            <span class="bg-info">ex ea commodo</span>
+            <span class="bg-danger">consequat.</span>
+        </div>
+        <!-- dropdown menu -->
+        <div class="container">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Favorite Hero<span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Marvel</li>
+                        <li><a href="#">Spiderman</a></li>
+                        <li><a href="#">Captain America</a></li>
+                        <li><a href="#">Iron Man</a></li>
+                        
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">DC</li>
+                        
+                        <li class="disabled"><a href="#">Superman</a></li>
+                        <li><a href="#">Batman</a></li>
+                        <li><a href="#">Flash</a></li>
+                    </ul>
+            </div>
+        </div>
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+    </body>
+</html>
